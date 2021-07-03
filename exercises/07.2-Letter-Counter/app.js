@@ -2,5 +2,6 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
+for(let i = 0; i)
 
 console.log(counts);
