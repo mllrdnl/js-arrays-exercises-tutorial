@@ -10,11 +10,21 @@ let allColors = [
 
 function generateLI(color){
 	// your code here
+	return '<li>' + color.label + '</li>';
+
 }
+
+//purpose of function is to generate an <li></li> tag.
+// the input is an array with a string label and sexy boolean, 
+// the output is <li></li> tags for each 'sexy color'
 
 function filterColors(color){
 	// your code here
+	if (color.sexy === true) {
+		return color.sexy;
+	}
 }
+
 
 function generateHTMLFromArray(array){
 	
